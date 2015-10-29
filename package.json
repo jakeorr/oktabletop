@@ -4,7 +4,8 @@
   "description": "Okanagan Tabletop website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/jakeorr/oktabletop/issues"
   },
-  "homepage": "https://github.com/jakeorr/oktabletop#readme"
+  "homepage": "https://github.com/jakeorr/oktabletop#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4"
+  }
 }
