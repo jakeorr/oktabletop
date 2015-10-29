@@ -26,4 +26,4 @@ You can then run `gulp` to start a monitored local server.
 
 ## Deploy
 
-Pushing to `master` will trigger an automatic deploy to heroku, served at [oktabletop.com](http://oktabletop.com).
+Pushing to `master` will trigger an automatic deploy to heroku, served at [www.oktabletop.com](http://www.oktabletop.com).
