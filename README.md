@@ -6,7 +6,7 @@ Make sure you have the [git installed](https://git-scm.com/downloads)
 
 `git clone git@github.com:jakeorr/oktabletop.git`
 
-Will this repo into a `oktabletop` directory.
+Will clone this repo into a `oktabletop` directory.
 
 ## Running locally
 
