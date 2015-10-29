@@ -22,8 +22,8 @@ bower install
 
 To install bower and then install dependencies for this project.
 
-You can then run `gulp nodemon` to start a monitored local server.
+You can then run `gulp` to start a monitored local server.
 
 ## Deploy
 
-Deploy hasn't been automated yet. Update this repo and then talk to Chad about doing a deploy.
+Pushing to `master` will trigger an automatic deploy to heroku, served at [oktabletop.com](oktabletop.com).
