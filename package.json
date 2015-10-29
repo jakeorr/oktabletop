@@ -1,0 +1,19 @@
+{
+  "name": "oktabletop",
+  "version": "0.0.0",
+  "description": "Okanagan Tabletop website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakeorr/oktabletop.git"
+  },
+  "author": "Jake Orr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakeorr/oktabletop/issues"
+  },
+  "homepage": "https://github.com/jakeorr/oktabletop#readme"
+}
