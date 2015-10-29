@@ -15,12 +15,14 @@ Will clone this repo into a `oktabletop` directory.
 ```
 cd oktabletop
 npm install -g bower
+npm install -g gulp
+npm install
 bower install
 ```
 
-To install bower and then use it to install dependencies for this project.
+To install bower and then install dependencies for this project.
 
-You can then open `index.html` in a browser to view the site locally.
+You can then run `gulp nodemon` to start a monitored local server.
 
 ## Deploy
 
