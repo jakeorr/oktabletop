@@ -25,30 +25,205 @@
     <!-- Custom css -->
     <link href="/styles/style.css" rel="stylesheet">
 
+
+    <style type="text/css">
+
+      .hidden.menu {
+        display: none;
+      }
+
+      .masthead.segment {
+        min-height: 700px;
+        padding: 1em 0em;
+      }
+      .masthead .logo.item img {
+        margin-right: 1em;
+      }
+      .masthead .ui.menu .ui.button {
+        margin-left: 0.5em;
+      }
+      .masthead h1.ui.header {
+        margin-top: 3em;
+        margin-bottom: 0em;
+        font-size: 4em;
+        font-weight: normal;
+      }
+      .masthead h2 {
+        font-size: 1.7em;
+        font-weight: normal;
+      }
+
+      .ui.vertical.stripe {
+        padding: 8em 0em;
+      }
+      .ui.vertical.stripe h3 {
+        font-size: 2em;
+      }
+      .ui.vertical.stripe .button + h3,
+      .ui.vertical.stripe p + h3 {
+        margin-top: 3em;
+      }
+      .ui.vertical.stripe .floated.image {
+        clear: both;
+      }
+      .ui.vertical.stripe p {
+        font-size: 1.33em;
+      }
+      .ui.vertical.stripe .horizontal.divider {
+        margin: 3em 0em;
+      }
+
+      .quote.stripe.segment {
+        padding: 0em;
+      }
+      .quote.stripe.segment .grid .column {
+        padding-top: 5em;
+        padding-bottom: 5em;
+      }
+
+      .footer.segment {
+        padding: 5em 0em;
+      }
+
+      .secondary.pointing.menu .toc.item {
+        display: none;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .ui.fixed.menu {
+          display: none !important;
+        }
+        .secondary.pointing.menu .item,
+        .secondary.pointing.menu .menu {
+          display: none;
+        }
+        .secondary.pointing.menu .toc.item {
+          display: block;
+        }
+        .masthead.segment {
+          min-height: 350px;
+        }
+        .masthead h1.ui.header {
+          font-size: 2em;
+          margin-top: 1.5em;
+        }
+        .masthead h2 {
+          margin-top: 0.5em;
+          font-size: 1.5em;
+        }
+      }
+
+    </style>
+
   </head>
   <body>
-    <div class="ui middle aligned center aligned grid">
-      <div class="column">
-        <h1>The future home of OKTabletop.com</h1>
-  
-        <h2>About us</h2>
-  
-        <p>OKTabletop is the next phase of OKDnD. OKDnD is a loose federation of Dungeons & Dragons groups up and down the Okanagan Valley that meet bi-monthly for discussion, help people get into games, volunteer at expos and cons, and run roleplaying events. Soon, we will be widening our remit to include many other types of tabletop games — including other roleplaying games, Warhammer, Netrunner, and boardgames.</p>
-  
-        <p>Stay tuned for more details about OKTabletop as we develop.</p>
-  
-        <h2>Join us</h2>
-  
-        <ul>
-          <li><a href="http://www.meetup.com/Okanagan-DNDGaming-Discussions-group/" title="Okanagan Dungeons and Dragons Gaming and Discussions group (Kelowna, BC)- Meetup">Meetup</a></li>
-          <li><a href="https://plus.google.com/communities/114025816850959584340">Google+</a></li>
-          <li><a href="https://www.facebook.com/groups/OKDND">Facebook</a></p></li>
-        </ul>
-      </div>
-    </div>
-    
+
+    <body>
+
+        <!-- Page Contents -->
+        <div class="pusher">
+          <div class="ui inverted vertical masthead center aligned segment">
+
+            <div class="ui text container">
+              <h1 class="ui inverted header">
+                Okanagan Tabletop
+              </h1>
+              <h2>We play games on tables. Wanna join us?</h2>
+              <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+            </div>
+
+          </div>
+
+          <div class="ui vertical stripe segment">
+            <div class="ui middle aligned stackable grid container">
+              <div class="row">
+                <div class="eight wide column">
+                  <h3 class="ui header">About us</h3>
+                  <p>OKTabletop is the next phase of OKDnD. OKDnD is a loose federation of Dungeons & Dragons groups up and down the Okanagan Valley that meet bi-monthly for discussion, help people get into games, volunteer at expos and cons, and run roleplaying events. Soon, we will be widening our remit to include many other types of tabletop games — including other roleplaying games, Warhammer, Netrunner, and boardgames.</p>
+
+                  <p>Stay tuned for more details about OKTabletop as we develop.</p>
+                </div>
+                <div class="six wide right floated column">
+                  <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="ui vertical stripe quote segment">
+            <div class="ui equal width stackable internally celled grid">
+              <div class="center aligned row">
+                <div class="column">
+                  <h3>"Booze helps me get over my social awkwardness with… the socially awkward."</h3>
+                  <p>Satisfied player</p>
+                </div>
+                <div class="column">
+                  <h3>"Don't you get it? I am his father AND his wife!"</h3>
+                  <p>
+                    <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b> Hadd Hard</b>, Viking
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ui vertical stripe segment">
+            <div class="ui text container">
+              <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
+              <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
+              <a class="ui large button">Read More</a>
+              <h4 class="ui horizontal header divider">
+                <a href="#">Case Studies</a>
+              </h4>
+              <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
+              <p>Yes I know you probably disregarded the earlier boasts as non-sequitor filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
+              <a class="ui large button">I'm Still Quite Interested</a>
+            </div>
+          </div>
+
+
+          <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+              <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                  <h4 class="ui inverted header">Connect</h4>
+                  <div class="ui inverted link list">
+                    <a href="#" class="item">Meetup.com</a>
+                    <a href="#" class="item">Google+</a>
+                    <a href="#" class="item">Facebook</a>
+                    <a href="#" class="item">Slack</a>
+                  </div>
+                </div>
+                <div class="three wide column">
+                  <h4 class="ui inverted header">Friends</h4>
+                  <div class="ui inverted link list">
+                    <a href="#" class="item">South Okanagan Tabletop</a>
+                    <a href="#" class="item">Kelowna Boardgames Facebook Group</a>
+                    <a href="#" class="item">UBCO Games Club</a>
+                  </div>
+                </div>
+                <div class="seven wide column">
+                  <h4 class="ui inverted header">Footer Header</h4>
+                  <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/semantic/dist/semantic.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-69450708-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
   </body>
 </html>
